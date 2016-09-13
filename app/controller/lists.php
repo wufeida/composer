@@ -5,8 +5,8 @@
  * Date: 2016/9/13
  * Time: 19:45
  */
-class User {
+class lists {
     public function show() {
-        echo '武飞达 1106541135@qq.com<br/>';
+        echo 'lists武飞达 1106541135@qq.com';
     }
 }
