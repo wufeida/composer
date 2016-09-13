@@ -7,6 +7,6 @@
  */
 class User {
     public function show() {
-        echo '武飞达 1106541135@qq.com<br/>';
+        echo '武飞达  1106541135@qq.com<br/>';
     }
 }
