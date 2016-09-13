@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98b8f254b3f1ab847776f33ca2f88420",
-    "content-hash": "d7e73fa829cb67de47ab71a9539e79ac",
+    "hash": "8b33f90f299c3981a8cb65a509a99148",
+    "content-hash": "15c3eaaec6189b4bf2bbf92a00bdff7f",
     "packages": [
         {
             "name": "monolog/monolog",
@@ -131,6 +131,47 @@
                 "psr-3"
             ],
             "time": "2016-01-06 21:40:42"
+        },
+        {
+            "name": "wmlife/composer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wmlife/composer.git",
+                "reference": "e49df0bc2d2cbb0abf492db9ef29ec066bb06d43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wmlife/composer/zipball/e49df0bc2d2cbb0abf492db9ef29ec066bb06d43",
+                "reference": "e49df0bc2d2cbb0abf492db9ef29ec066bb06d43",
+                "shasum": ""
+            },
+            "require": {
+                "monolog/monolog": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "app\\": "app"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "wu min",
+                    "email": "18329783@qq.com"
+                }
+            ],
+            "description": "composer test",
+            "homepage": "http://www.wumin.win/",
+            "keywords": [
+                "test"
+            ],
+            "time": "2016-09-13 12:37:17"
         }
     ],
     "packages-dev": [],
@@ -140,7 +181,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.4.0"
+        "php": ">=5.5.0"
     },
     "platform-dev": []
 }

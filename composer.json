@@ -18,7 +18,8 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=5.5.0",
-    "monolog/monolog": "*"
+    "monolog/monolog": "*",
+    "wmlife/composer": "*"
   },
   "autoload": {
     "psr-4": {

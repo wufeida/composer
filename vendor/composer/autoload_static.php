@@ -25,6 +25,7 @@ class ComposerStaticInit2cbd281a6d858453f18ae6e63619e2a9
         'app\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
+            1 => __DIR__ . '/..' . '/wmlife/composer/app',
         ),
         'Psr\\Log\\' => 
         array (

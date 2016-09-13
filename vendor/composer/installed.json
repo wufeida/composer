@@ -127,5 +127,48 @@
             "logging",
             "psr-3"
         ]
+    },
+    {
+        "name": "wmlife/composer",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wmlife/composer.git",
+            "reference": "e49df0bc2d2cbb0abf492db9ef29ec066bb06d43"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wmlife/composer/zipball/e49df0bc2d2cbb0abf492db9ef29ec066bb06d43",
+            "reference": "e49df0bc2d2cbb0abf492db9ef29ec066bb06d43",
+            "shasum": ""
+        },
+        "require": {
+            "monolog/monolog": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2016-09-13 12:37:17",
+        "type": "project",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "app\\": "app"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "wu min",
+                "email": "18329783@qq.com"
+            }
+        ],
+        "description": "composer test",
+        "homepage": "http://www.wumin.win/",
+        "keywords": [
+            "test"
+        ]
     }
 ]
